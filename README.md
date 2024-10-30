@@ -12,3 +12,8 @@ This project provides all necessary files to create a custom reproduction PCB fo
   - **With Gimmick! Logo** on the back side of the PCB.
   - **Without Logo** for a clean design.
 
+### License
+
+This project is **free to use and remix** for personal or educational purposes. If you modify and manufacture the PCB, please include my URL (jensma.de) somewhere on the board as attribution. This helps acknowledge the original project and keeps the community connected.
+
+Happy building!
