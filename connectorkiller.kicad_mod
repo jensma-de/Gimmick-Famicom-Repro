@@ -1,0 +1,13 @@
+(module connectorkiller (layer F.Cu) (tedit 56F856EB)
+  (descr "module 1 pin (ou trou mecanique de percage)")
+  (tags DEV)
+  (zone_connect 0)
+  (fp_text reference REF** (at 6.75 27.46) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 1pin (at 16.3 26.27) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at 0.63 9.71) (size 80 10) (layers *.Mask)
+    (zone_connect 0))
+)

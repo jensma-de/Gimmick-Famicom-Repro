@@ -1,0 +1,16 @@
+(module iec-loch (layer F.Cu) (tedit 5750A932)
+  (descr "28-lead dip package, row spacing 15.24 mm (600 mils)")
+  (tags "dil dip 2.54 600")
+  (fp_text reference W5 (at 0 -1.1) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.000001)))
+  )
+  (fp_text value TEST_1P (at 0.5 -4.6) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.000001)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 2.15 2.15) (drill 1.33) (layers *.Cu))
+  (model Housings_DIP.3dshapes/DIP-28_W15.24mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

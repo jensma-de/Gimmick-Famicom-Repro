@@ -1,0 +1,16 @@
+(module viastitch (layer F.Cu) (tedit 56FA662C)
+  (descr "28-lead dip package, row spacing 15.24 mm (600 mils)")
+  (tags "dil dip 2.54 600")
+  (fp_text reference Ref** (at 0 -1.1) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.000001)))
+  )
+  (fp_text value Val** (at 0.5 -4.6) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.000001)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.8) (layers *.Cu))
+  (model Housings_DIP.3dshapes/DIP-28_W15.24mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
